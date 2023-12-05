@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your CV</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #a6a1a1; /* Light gray background color */
+            transition: background-color 0.5s ease;
+        }
+
+        header {
+            background-color: #1e1c1c; /* Dark gray color for the header */
+            color: #fff; /* White text color for the header */
+            text-align: center;
+            padding: 20px;
+        }
+
+        section {
+            background-color: #f5f2f2; /* White background color for sections */
+            color: #353434; /* Dark gray text color for sections */
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow for sections */
+        }
+
+        h1, h2 {
+            color: #878109; /* Dark gray text color for headings */
+        }
+
+        p {
+            color: #0a0a0a; /* Medium gray text color for paragraphs */
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            margin-top: 20px;
+            width: 150px; /* Adjust the width as needed */
+            height: 150px; /* Adjust the height as needed */
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kheav Yav</h1>
+        <h2>Job Management</h2>
+        <img src="yavkl.html" alt="yavkl">
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>My name is Kheav Yav</p>
+        <p>Age 23</p>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <p>University BBU (BMC) - Bachelor's Degree in Management Business - Graduation year 2024</p>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        <p>សហគ្រិន​ ប្រសិទ្ធភាព 2021​ - 2023</p>
+        <P>សហភាពសមព័ន្ធយុវជនកម្ពុជា 2019 - 2022</P>
+        <p>សមាគន៍មនុស្សជាតិ​​2018 - 2021</p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <p>Word , Excel , Powerpoint</p>
+        <p>Englsih level 9</p>
+        <p>Edit Video and content center</p>
+
+    </section>
+
+    <script>
+        // Change background color in a cycle
+        const colors = ['#f2f2f2', '#e6e6e6', '#d9d9d9', '#cccccc'];
+        let index = 0;
+
+        function changeBackgroundColor() {
+            document.body.style.backgroundColor = colors[index];
+            index = (index + 1) % colors.length;
+        }
+
+        // Change background color every 5 seconds
+        setInterval(changeBackgroundColor, 5000);
+    </script>
+</body>
+</html>
